@@ -196,7 +196,7 @@ h1, h2, h3 {
 /* hero section */
 
 .hero-main-section {
-    background-image: url('./images/desktop/hero_image_luke_desk.jpg');
+    background-image: url('./images/desktop/hero_image_luke_desk.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -233,7 +233,7 @@ h1, h2, h3 {
 
 @media (max-width: 600px) {
     .hero-main-section {
-        background-image: url('./images/mobile/hero_image_luke_mob.jpg');
+        background-image: url('./images/mobile/hero_image_luke_mob.png');
         padding: 3em 0 11em;
     }
 
