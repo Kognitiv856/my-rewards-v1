@@ -278,14 +278,10 @@ h1, h2, h3 {
 
 .panel-image-container {
     width: 50%;
-}
-
-.panel-image {
-    width: 100%;
-    padding-bottom: 66.66667%;
     background-image: url('./images/desktop/Women_Image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .panel-text {
@@ -324,9 +320,22 @@ h1, h2, h3 {
     .panel-text {
         width: 100%;
     }
+
+    .panel-image-container {
+        padding-bottom: 66.66667%;
+    }
 }
 
 @media (max-width: 600px) {
+     .redeem-main-section {
+         padding-bottom: 2rem;
+     }
+
+     .panel-container {
+         margin-top: 2rem;
+     }
+
+
     .panel-text {
         padding: 2em .5em;
     }
@@ -355,6 +364,10 @@ h1, h2, h3 {
     .terms-main-section br {
         display: none;
     }
+
+    .terms-main-section {
+        padding: 2rem 0;
+    }
 }
 
 /* CTA section */
@@ -368,7 +381,7 @@ h1, h2, h3 {
 }
 
 .cta-main-section .container {
-   padding: 10rem 0;
+   padding: 12rem 0;
 }
 
 
@@ -389,7 +402,7 @@ h1, h2, h3 {
     }
 
     .cta-main-section .container {
-        padding: 5rem 0;
+        padding: 5rem 0 0;
     }
 
     .cta-container {
@@ -399,6 +412,12 @@ h1, h2, h3 {
     .mob-cta-image {
         display: block;
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .cta-main-section .container {
+        padding: 2rem 0 0;
     }
 }
 
@@ -464,12 +483,14 @@ h1, h2, h3 {
 @media (max-width: 810px) {
     .footer-section-two {
         display: block;
-        text-align: center;
     }
 
     .footer-col + .footer-col {
         padding-left: 0;
-        padding-top: 2em;
+    }
+
+    .footer-col:not(:last-child) {
+        display: none;
     }
 
     .card-col {
@@ -479,10 +500,6 @@ h1, h2, h3 {
     .cards-image {
         background-image: url('./images/mobile/footer_cards_mob.png');
         background-position: center;
-    }
-
-    .footer-nav-item.align-right {
-        text-align: center;
     }
 }
 
