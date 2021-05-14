@@ -183,5 +183,40 @@ const languages  = [
         id: "1619706910807",
         englishText: "Your Privacy",
         arabicText: "خصوصيتك"
+    },
+    {
+        id: "1620997679806",
+        englishText: "Redeem today!",
+        arabicText: "تخليص اليوم!"
+    },
+    {
+        id: "1620998081551",
+        englishText: "<strong>11,300</strong> points:",
+        arabicText: "<strong>11,300</strong> نقطة:"
+    },
+    {
+        id: "1620998392615",
+        englishText: "EGP 150",
+        arabicText: "150 جنيه مصري"
+    },
+    {
+        id: "1620998462491",
+        englishText: "<strong>22,500</strong> points:",
+        arabicText: "<strong> 22500 </strong> نقطة:"
+    },
+    {
+        id: "1620998660342",
+        englishText: "EGP 300",
+        arabicText: "300 جنيه مصري"
+    },
+    {
+        id: "1620998863591",
+        englishText: "<strong>45,000</strong> points:",
+        arabicText: "<strong> 45000 </strong> نقطة:"
+    },
+    {
+        id: "1620998926234",
+        englishText: "EGP 600",
+        arabicText: "600 جنيه مصري"
     }
 ]
