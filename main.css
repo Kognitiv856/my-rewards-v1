@@ -260,6 +260,7 @@ h1, h2, h3 {
 
 .redeem-main-section {
     background-color: #FBFBFC;
+    padding-bottom: 20px;
 }
 
 .panel-container {
@@ -327,6 +328,10 @@ h1, h2, h3 {
 
 @media (max-width: 600px) {
 
+    .redeem-main-section {
+        padding-bottom: 2rem;
+    }
+
      .panel-container {
          margin-top: 2rem;
      }
@@ -339,12 +344,9 @@ h1, h2, h3 {
 
 /* points section */
 
-.points-main-section {
+.container--points {
     text-align: center;
     padding-top: 60px;
-}
-
-.container--points {
     overflow: hidden;
 }
 
@@ -353,12 +355,15 @@ h1, h2, h3 {
     justify-content: center;
     flex-wrap: wrap;
     margin-right: -30px;
-    padding-bottom: 120px;
 }
 
 .points__item {
     padding-right: 30px;
-    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.subtitle--points {
+    margin-bottom: 40px;
 }
 
 .points__text {
@@ -384,7 +389,7 @@ h1, h2, h3 {
 
 .terms-main-section {
     text-align: center;
-    padding-bottom: 5rem;
+    padding: 5rem 0;
 }
 
 .terms-main-section .container > *:not(:last-child) {
@@ -405,7 +410,7 @@ h1, h2, h3 {
     }
 
     .terms-main-section {
-        padding-bottom: 2rem;
+        padding: 2rem 0;
     }
 }
 
