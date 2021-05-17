@@ -260,7 +260,6 @@ h1, h2, h3 {
 
 .redeem-main-section {
     background-color: #FBFBFC;
-    padding-bottom: 20px;
 }
 
 .panel-container {
@@ -269,6 +268,7 @@ h1, h2, h3 {
 
 .panel {
     width: 100%;
+    min-height: 400px;
     background: #fff;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     padding: 1.5em;
@@ -290,7 +290,7 @@ h1, h2, h3 {
 }
 
 .redeem-subtitle {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 
 .redeem-list-item {
@@ -328,10 +328,6 @@ h1, h2, h3 {
 
 @media (max-width: 600px) {
 
-    .redeem-main-section {
-        padding-bottom: 2rem;
-    }
-
      .panel-container {
          margin-top: 2rem;
      }
@@ -359,7 +355,17 @@ h1, h2, h3 {
 
 .points__item {
     padding-right: 30px;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.points__item:last-child {
+    padding-bottom: 5rem;
+}
+
+@media (max-width: 600px) {
+    .points__item:last-child {
+        padding-bottom: 2rem;
+    }
 }
 
 .subtitle--points {
