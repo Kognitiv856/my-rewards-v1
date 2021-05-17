@@ -398,16 +398,20 @@ h1, h2, h3 {
     padding: 5rem 0;
 }
 
-.terms-main-section .container > *:not(:last-child) {
-    margin-bottom: 50px;
-}
-
 .terms-subtitle {
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .terms-block {
     font-size: 14px;
+    padding: 20px 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.terms-block:nth-child(even) {
+    background-color: #FBFBFC;
 }
 
 @media (max-width: 600px) {
