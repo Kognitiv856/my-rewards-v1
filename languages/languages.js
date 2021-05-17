@@ -1,8 +1,8 @@
 const languages  = [
     {
         id: "1619534768063",
-        englishText: "enjoy up to<span class=\"accent-text\">egp 400 cashback!</span>",
-        arabicText: "استمتع حتى<span class=\"accent-text translatable\">كاش باك 400 جنيه مصري!</span>"
+        englishText: "cash rewards!<span class=\"accent-text\">up to egp 600</span>",
+        arabicText: "المكافآت النقدية!<span class=\"accent-text translatable\">حتى 600 جنيه مصري</span>"
     },
     {
         id: "1619534954039",
@@ -11,13 +11,13 @@ const languages  = [
     },
     {
         id: "1619535216756",
-        englishText: "You’re one step closer to your next reward!",
-        arabicText: "لقد اقتربت خطوة واحدة من جائزتك التالية!"
+        englishText: "You’re one step closer to exciting cash rewards",
+        arabicText: "لقد اقتربت خطوة واحدة من الحصول على مكافآت نقدية مثيرة"
     },
     {
         id: "1619535579479",
-        englishText: "To redeem your My Rewards Points and get cashback offers, follow the instructions below.",
-        arabicText: "لاسترداد نقاط My Rewards الخاصة بك والحصول على عروض استرداد النقود ، اتبع الإرشادات أدناه."
+        englishText: "To redeem your My Rewards Points and get cash, follow the instructions below.",
+        arabicText: "لاسترداد نقاط My Rewards الخاصة بك والحصول على النقود ، اتبع التعليمات أدناه."
     },
     {
         id: "1619539315687",
@@ -26,14 +26,15 @@ const languages  = [
     },
     {
         id: "1619539441724",
-        englishText: "Choose your reward on the My Rewards Website",
-        arabicText: "اختر مكافأتك على موقع My Rewards"
+        englishText: "Contact the My Rewards Points Customer Service Centre on +2022 739 4050 / +202 2529 1040 between 9am to 6pm from Sunday to Thursday or through the live chat on https://myrewardspoints.com/en-eg",
+        arabicText: "اتصل بمركز خدمة عملاء My Rewards Points على +2022739 4050 / +202 2529 1040 بين الساعة 9 صباحًا حتى 6 مساءً من الأحد إلى الخميس أو من خلال الدردشة المباشرة على https://myrewardspoints.com/en-eg"
     },
     {
         id: "1619539619670",
-        englishText: "Contact the My Rewards Points Customer Service Centre on +2022 739 4050 / +202 2529 1040 between 9am to 6pm from Sunday to Thursday",
-        arabicText: "اتصل بمركز خدمة عملاء My Rewards Points على +2022739 4050 / +202 2529 1040 بين الساعة 9 صباحًا حتى 6 مساءً من الأحد إلى الخميس"
+        englishText: "Tell the agent how many My Rewards Points you wish to redeem. Please note that you can only redeem for cashback once during the campaign period.",
+        arabicText: "أخبر الوكيل بعدد نقاط مكافآتي التي ترغب في استبدالها. يرجى ملاحظة أنه يمكنك استرداد النقود مرة واحدة فقط خلال فترة الحملة."
     },
+    /*
     {
         id: "1619539690543",
         englishText: "Tell the agent the reward of your choice and redeem your My Rewards Points",
@@ -44,6 +45,7 @@ const languages  = [
         englishText: "Enjoy your reward and cashback offers!",
         arabicText: "استمتع بمكافأتك وعروض استرداد النقود!"
     },
+    */
     {
         id: "1619603191942",
         englishText: "Terms & Conditions",
@@ -51,28 +53,53 @@ const languages  = [
     },
     {
         id: "1619603346911",
-        englishText: "This offer is valid from xx time 15th April to xx time 15th May ",
-        arabicText: "هذا العرض ساري من xx في 15 أبريل إلى xx في 15 مايو"
+        englishText: "The offer is available only to the members who received and opted in the<br> offer communication",
+        arabicText: "العرض متاح فقط للأعضاء الذين تلقوا واختاروا اتصال العرض"
     },
     {
         id: "1619603427041",
-        englishText: "Redeem 11,300 Points to get EGP200 cashback or 22,600 Points to get<br> EGP400 cashback.",
-        arabicText: "استبدل 11300 نقطة لتحصل على استرداد نقدي قدره 200 جنيه مصري أو 22600 نقطة لتحصل على استرداد نقدي بقيمة 400 جنيه مصري."
+        englishText: "Redemption once made cannot be reverted",
+        arabicText: "الاسترداد مرة واحدة لا يمكن التراجع"
     },
     {
         id: "1619603573324",
-        englishText: "This offer is only valid on a single redemption of either 11,300 or 22,600 points",
-        arabicText: "هذا العرض ساري فقط على استرداد واحد إما 11300 أو 22600 نقطة"
+        englishText: "Members can make only one redemption during the campaign period",
+        arabicText: "يمكن للأعضاء إجراء عملية استرداد واحدة فقط خلال فترة الحملة"
     },
     {
         id: "1619603797642",
-        englishText: "The offer is only valid on redemptions made through the My Rewards Points<br> Call Centre",
-        arabicText: "يسري العرض فقط على عمليات الاسترداد التي تتم من خلال مركز اتصال My Rewards Points"
+        englishText: "The offer is applicable only once during the campaign period dates as<br> communicated in the offer email",
+        arabicText: "يسري العرض مرة واحدة فقط خلال تواريخ فترة الحملة كما هو موضح في البريد الإلكتروني للعرض"
     },
     {
         id: "1619603882639",
-        englishText: "The cashback value will be credited to your HSBC Credit Card account within<br> XX days of points redemption",
-        arabicText: "ستتم إضافة قيمة الاسترداد النقدي إلى حساب بطاقة HSBC الائتمانية الخاصة بك في غضون XX يومًا من استرداد النقاط"
+        englishText: "Redemptions for cash back can be made only by contacting MRP Contact centre<br> via Call or Chat",
+        arabicText: "يمكن إجراء عمليات استرداد النقود فقط عن طريق الاتصال بمركز اتصال MRP عبر الاتصال أو الدردشة"
+    },
+    {
+        id: "1621260480113",
+        englishText: "Cash will be credited to member's HSBC Credit Card in 7 working days post<br> the successful redemption by contacting MRP contact centre",
+        arabicText: "ستتم إضافة الأموال النقدية إلى بطاقة HSBC الائتمانية الخاصة بالعضو في غضون 7 أيام عمل بعد الاسترداد الناجح عن طريق الاتصال بمركز اتصال MRP"
+    },
+    {
+        id: "1621260498631",
+        englishText: "Members may contact HSBC contact centre directly to raise any concerns post<br> the successful redemption of points",
+        arabicText: "يمكن للأعضاء الاتصال بمركز اتصال HSBC مباشرةً للإبلاغ عن أي مخاوف بعد الاسترداد الناجح للنقاط"
+    },
+    {
+        id: "1621260521560",
+        englishText: "Rights to determine cash back value back solely lies with HSBC",
+        arabicText: "تعود حقوق تحديد قيمة الاسترداد النقدي إلى HSBC فقط"
+    },
+    {
+        id: "1621260545880",
+        englishText: "Cash back reward option is available only during the campaign period (dates<br> as communicated in offer email)",
+        arabicText: "يتوفر خيار مكافأة الاسترداد النقدي فقط خلال فترة الحملة (التواريخ كما هو موضح في البريد الإلكتروني للعرض)"
+    },
+    {
+        id: "1621260680520",
+        englishText: "My Rewards Programme has the rights to change offer T&Cs if deemed so",
+        arabicText: "برنامج My Rewards لديه الحق في تغيير شروط وأحكام العرض إذا اعتبر ذلك كذلك"
     },
     {
         id: "1619624594267",
